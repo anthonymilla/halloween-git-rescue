@@ -6,7 +6,7 @@
 git branch feature-nightmare
 git branch feature-sanctuary
 ```
-![Captura de la creació de branques](captura6.png)
+![Captura de la creació de branques](Captures/captura6.png)
 
 ---
 
@@ -17,8 +17,8 @@ git checkout feature-nightmare
 git add main.js
 git commit -m "fix: injecting dark dimension logic"
 ```
-![Captura del treball a feature-nightmare](captura7_1.png)
-![Captura del treball a feature-nightmare](captura7_2.png)
+![Captura del treball a feature-nightmare](Captures/captura7_1.png)
+![Captura del treball a feature-nightmare](Captures/captura7_2.png)
 
 ---
 
@@ -29,7 +29,7 @@ git checkout feature-sanctuary
 git add main.js
 git commit -m "feat: alternative sanctuary protection matrix"
 ```
-![Captura del treball a feature-sanctuary](captura8.png)
+![Captura del treball a feature-sanctuary](Captures/captura8.png)
 
 ---
 
@@ -40,7 +40,7 @@ git checkout master
 git merge feature-nightmare
 git merge feature-sanctuary
 ```
-![Captura del conflicte de fusió](captura9.png)
+![Captura del conflicte de fusió](Captures/captura9.png)
 
 ---
 
@@ -50,4 +50,4 @@ git merge feature-sanctuary
 git add main.js
 git commit -m "merge: resolving timeline collision and saving core server"
 ```
-![Captura del commit de fusió](captura10.png)
+![Captura del commit de fusió](Captures/captura10.png)

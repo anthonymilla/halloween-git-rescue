@@ -5,7 +5,7 @@
 ```bash
 git init
 ```
-![Captura del comando git init](captura1.png)
+![Captura del comando git init](Captures/captura1.png)
 
 ---
 
@@ -15,7 +15,7 @@ git init
 git config user.name "Anthony Milla"
 git config user.email "tu_correo@estudiant.com"
 ```
-![Captura de la configuració d'usuari](captura2.png)
+![Captura de la configuració d'usuari](Captures/captura2.png)
 
 ---
 
@@ -25,7 +25,7 @@ git config user.email "tu_correo@estudiant.com"
 git add main.js
 git commit -m "feat: initial formal structure for server environment"
 ```
-![Captura del primer commit](captura3.png)
+![Captura del primer commit](Captures/captura3.png)
 
 ---
 
@@ -38,7 +38,7 @@ git commit -m "feat: implement perimetric security filters"
 git add main.js
 git commit -m "feat: deploy main server room firewall"
 ```
-![Captura del segon i tercer commit](captura4.png)
+![Captura del segon i tercer commit](Captures/captura4.png)
 
 ---
 
@@ -47,4 +47,4 @@ git commit -m "feat: deploy main server room firewall"
 ```bash
 git log --oneline
 ```
-![Captura de l'historial simplificat](captura5.png)
+![Captura de l'historial simplificat](Captures/captura5.png)
