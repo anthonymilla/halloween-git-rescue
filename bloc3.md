@@ -6,7 +6,7 @@
 git add main.js
 git commit -m "feat: unhandled spectral exception"
 ```
-![Captura del commit infectat](captura11.png)
+![Captura del commit infectat](Captures/captura11.png)
 
 ---
 
@@ -15,7 +15,7 @@ git commit -m "feat: unhandled spectral exception"
 ```bash
 git diff HEAD~1 HEAD
 ```
-![Captura de la diferència amb git diff](captura12.png)
+![Captura de la diferència amb git diff](Captures/captura12.png)
 
 ---
 
@@ -24,7 +24,7 @@ git diff HEAD~1 HEAD
 ```bash
 git reset --hard HEAD~1
 ```
-![Captura de l'exorcisme amb git reset](captura13.png)
+![Captura de l'exorcisme amb git reset](Captures/captura13.png)
 
 ---
 
@@ -33,7 +33,7 @@ git reset --hard HEAD~1
 ```bash
 git log --oneline --graph --all
 ```
-![Captura de la topologia en arbre](captura14.png)
+![Captura de la topologia en arbre](Captures/captura14.png)
 
 ---
 
@@ -43,5 +43,5 @@ git log --oneline --graph --all
 git remote add origin https://github.com
 git push -u origin master --all
 ```
-![Captura de la pujada final a GitHub](captura15_1.png)
-![Captura de la pujada final a GitHub](captura15_2.png)
+![Captura de la pujada final a GitHub](Captures/captura15_1.png)
+![Captura de la pujada final a GitHub](Captures/captura15_2.png)
